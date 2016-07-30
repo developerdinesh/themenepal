@@ -1,0 +1,163 @@
+/*============================================================
+---------------------Global Variables---------------------
+============================================================*/
+
+img{
+    max-width: 100%;
+}
+
+.align-right{
+    text-align:right;
+}
+
+.tn_col_half{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.tn_clearfix{
+    clear: both;
+}
+
+.tn_wrapper img{
+    max-width: 100%;
+}
+
+.tn_btn_wrapper{
+    display: block;
+    padding:10px 0;
+}
+
+
+.tn_btn_wrapper .page-title-action{
+    margin:0;
+}
+
+.tn_repeater{
+    display: block;
+    width: 100%;
+}
+
+.tn_repeater tbody{
+    min-width: 100%;
+    display: block;
+}
+
+.tn_repeater label{
+    font-weight: 700;
+    line-height: 25px;
+    display: block;
+}
+
+._tn_wrapper table{
+    width: 100%;
+}
+
+._tn_wrapper input{
+    width: 100%;
+}
+
+._tn_wrapper tr:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.post_block{
+    margin:0 0 10px;
+    background:rgb(241, 241, 241);
+    -webkit-border-radius: 4px;
+    -moz-border-radius:  4px;
+    border-radius:  4px;
+}
+
+
+
+/*============================================================
+---------------------Theme Otions---------------------
+============================================================*/
+
+.tn_left_wrap{
+    display: block;
+    width: 75%;
+    float: left;
+    padding:0 20px 0 0;
+    box-sizing:border-box;
+}
+
+.tn_right_wrap{
+    width: 25%;
+    float: left;
+    display: block;
+    padding:30px 0 0;
+}
+
+.tn_form_row{
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing:border-box;
+}
+
+.tn_with_col{
+    padding:5px 0;
+}
+
+.tn_with_col .tn_col_half{
+    padding:5px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tn_form_row input,
+.tn_form_row select,
+.tn_form_row textarea{
+    display: block;
+    width: 100%;
+}
+
+.tn_form_row input,
+.tn_form_row select{
+    line-height: 25px;
+}
+
+.tn_form_row textarea{
+    line-height: 1em;
+}
+
+.tn_repeater_single{
+    display: block;
+    padding:15px 0;
+    position: relative;
+}
+
+.tn_repeater_single .del_row{
+    display: block;
+    position: absolute;
+    top:10px;
+    right:10px;
+    cursor:pointer;
+    font-size:30px;
+}
+
+.tn_repeater_single:first-child .del_row{
+    display: none;
+}
+
+/*============================================================
+---------------------Theme Nepal Sidebar---------------------
+============================================================*/
+
+.tn_sidebar{
+    background:#fff;
+    overflow: hidden;
+    border:1px solid #dedede;
+}
+
+.tn_sidebar h2{
+    margin: 0;
+    padding: 0 10px;
+    line-height: 40px;
+}

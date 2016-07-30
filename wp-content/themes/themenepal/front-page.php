@@ -1,0 +1,11 @@
+<?php
+get_header();
+get_template_part('template-parts/banner');
+get_template_part('template-parts/features');
+get_template_part('template-parts/our-value');
+get_template_part('template-parts/service');
+get_template_part('template-parts/portfolio');
+get_template_part('template-parts/the-team');
+get_template_part('template-parts/testimonial');
+get_template_part('template-parts/social-share');
+get_footer();

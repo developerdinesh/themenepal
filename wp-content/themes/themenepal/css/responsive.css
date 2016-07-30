@@ -1,0 +1,356 @@
+@media screen and (max-width: 1140px){
+    /*section service start*/
+    .service_post_1,
+    .service_post_2,
+    .service_post_3,
+    .service_post_4,
+    .service_post_5,
+    .service_post_6 {
+        position: relative;
+        width: 33.333%;
+        float: left;
+        text-align: center;
+        margin: 0 0 30px;
+        padding: 0px 15px;
+        clear: none;
+    }
+    .circle_div {
+        display: none;
+    }
+    .service_post_1 .image_service {
+        position: relative;
+        bottom: auto;
+    }
+    .service_post_2 .image_service,
+    .service_post_4 .image_service,
+    .service_post_3 .image_service,
+    .service_post_5 .image_service {
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+    }
+    .image_service {
+        margin: 0 auto;
+    }
+    .service_post_1 .image_service {
+        bottom: auto;
+        position: relative;
+        left: auto;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+    }
+    .service_post_6 {
+        bottom: auto;
+        left: auto;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+    }
+}
+@media screen and (max-width: 992px) {
+    /*header section css start*/
+    
+    .site-navigation .nav-main li a,
+    .account-registration li a {
+        font-size: 12px;
+    }
+    .site-navigation .nav-main li {
+        margin-right: 9px;
+    }
+    /*header section css start*/
+    /*slider banner section css start*/
+    
+    .slider-wrap .slider-caption .caption-title span {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner-subscription-input {
+        line-height: 40px;
+    }
+    .banner-subscription-submit {
+        line-height: 40px;
+    }
+    .slider-wrap .slider-caption {
+        padding-top: 50px;
+    }
+    /*slider banner section css end*/
+    /*feature section start*/
+    
+    .feature-box {
+        width: 32%;
+    }
+    .feature-box-icon:before,
+    .feature-box-icon:after {
+        content: none;
+    }
+    .feature-box {
+        padding: 0 15px;
+    }
+    /*feature section end*/
+    /*service section start*/
+    .service_post_1,
+    .service_post_2,
+    .service_post_3,
+    .service_post_4,
+    .service_post_5,
+    .service_post_6 {
+        width: 50%;
+    }
+    .service_desc {
+        padding: 0;
+    }
+    /*service section end*/
+    /*portfolio css start*/
+    
+    .portfolio-list .grid .grid-item {
+        width: 33.33%;
+    }
+    /*portfolio css end*/
+}
+@media screen and (max-width: 768px) {
+    /*header section css start*/
+    
+    .navbar-responsive {
+        display: block;
+    }
+    .nav-main {
+        display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        opacity: 0;
+        top: 59px;
+        transition: 0.5s linear;
+        -webkit-transition: 0.5s linear;
+        -moz-transition: 0.5s linear;
+        -ms-transition: 0.5s linear;
+        -o-transition: 0.5s linear;
+    }
+    .nav-main.active {
+        display: block;
+        opacity: 1;
+    }
+    .nav-main li {
+        display: inline-block;
+        background-color: #3399cc;
+        margin-right: 0;
+        padding: 7px 0;
+        position: relative;
+        width: 100%;
+    }
+    .nav-main li:first-child:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #3399cc;
+        ;
+        top: -9px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .site-branding {
+        width: 100%;
+        text-align: center;
+        top: 0;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+        position: relative;
+        padding-bottom: 25px;
+    }
+    .site-navigation {
+        padding-left: 0;
+        text-align: left;
+    }
+    .site-header,
+    .site-header.sticky {
+        padding-top: 7px;
+        position: relative;
+        background-color: #3399cc;
+        padding-bottom: 30px;
+    }
+    .navbar-responsive .fa {
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .nav-main li a::after {
+        content: none;
+    }
+    /*header section  css end*/
+    /*slider banner css start*/
+    
+    .slider-wrap .slider-caption .caption-description {
+        width: 100%;
+    }
+    .slider-wrap .slider-caption h1.caption-title span {
+        line-height: 32px;
+        font-size: 30px;
+    }
+    .slider-wrap .slider-caption {
+        padding-top: 0;
+    }
+    .banner-subscription-input {
+        max-width: 320px;
+    }
+    /*slider banner css end*/
+    /*our-value css start*/
+    
+    .our-value-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .our-value-sub-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /*our-value css end*/
+    /*price section css start*/
+    
+    .price {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .price-wrap {
+        padding: 20px;
+    }
+    /*price section css end*/
+    /*portfolio css start*/
+    
+    .portfolio-list .grid .grid-item {
+        width: 50%;
+    }
+    .portfolio-list button {
+        margin: 0;
+    }
+    /*portfolio css end*/
+}
+@media screen and (max-width: 640px) {
+    /*banner section css start*/
+    
+    .banner-subscription-input {
+        max-width: 220px;
+    }
+    /*banner section css end*/
+    
+    .feature-box {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .feature-box:last-child {
+        margin-bottom: 0;
+    }
+    /*service section css start*/
+    
+    .service-list .button-group button {
+        max-width: 122px;
+    }
+    /*service section css end*/
+    /*our-value section css start*/
+    
+    .our-value-links a {
+        margin-bottom: 10px;
+    }
+    /*our-value section css end*/
+}
+@media screen and (max-width: 480px) {
+    /*slider banner css start*/
+    
+    .slider-wrap .slider-caption {
+        display: none;
+    }
+    .banner-subscription-submit {
+        padding: 0 7px;
+    }
+    .banner-subscription-input {
+        max-width: 45%;
+    }
+    .slider-subscription form {
+        width: auto;
+    }
+    /*slider banner css end*/
+    /*service section css start*/
+    
+    .service-list .button-group button {
+        max-width: 100%;
+        border-radius: 0;
+    }
+    .service-list .button-group button:first-child,
+    .service-list .button-group button:last-child {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        border-top-left-radius: 0;
+        -webkit-border-top-left-radius: 0;
+        -moz-border-top-left-radius: 0;
+        -o-border-top-left-radius: 0;
+        -ms-border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -moz-border-bottom-left-radius: 0;
+        -o-border-bottom-left-radius: 0;
+        -ms-border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -moz-border-top-right-radius: 0;
+        -o-border-top-right-radius: 0;
+        -ms-border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        -webkit-border-bottom-right-radius: 0;
+        -moz-border-bottom-right-radius: 0;
+        -o-border-bottom-right-radius: 0;
+        -ms-border-bottom-right-radius: 0;
+        border: 1px solid #33cccc;
+        margin: 1px 0;
+    }
+    /*service section css end*/
+    /*section service start*/
+    
+    .service_post_1,
+    .service_post_2,
+    .service_post_3,
+    .service_post_4,
+    .service_post_5,
+    .service_post_6 {
+        width: 100%;
+    }
+    /*section service end*/
+    /*price section css start*/
+    
+    .price {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    /*price section css end*/
+    /*portfolio css start*/
+    
+    .portfolio-list .grid .grid-item {
+        width: 100%;
+    }
+    .portfolio-list button {
+        margin: 0;
+        width: 100%;
+    }
+    .portfolio-list button:after {
+        content: none;
+    }
+    .portfolio-list button:hover {
+        color: #33cccc;
+    }
+    /*portfolio css end*/
+}
